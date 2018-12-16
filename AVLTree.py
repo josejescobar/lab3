@@ -201,7 +201,7 @@ class AVLTree: ##Implementation of methods to modify/research AVL Tree
             successor_node = node.right
             while successor_node.left != None:
                 successor_node = successor_node.left
-]            node.key = successor_node.key
+            node.key = successor_node.key
             self.remove_node(successor_node)
             return True
         
